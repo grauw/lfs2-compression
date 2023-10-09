@@ -1,9 +1,10 @@
 {
   "name": "lfs2-compression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Linear-time grammar compression using the LFS2 algorithm by Nakamura et al.",
   "author": "Laurens Holst",
   "license": "MIT",
+  "keywords": [ "lfs2", "grammar", "compression", "longest-first", "substitution", "suffix", "tree" ],
   "repository": {
     "type": "hg",
     "url": "https://hg.sr.ht/~grauw/lfs2-compression"
