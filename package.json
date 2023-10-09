@@ -1,0 +1,26 @@
+{
+  "name": "lfs2-compression",
+  "version": "1.0.0",
+  "description": "Linear-time grammar compression using the LFS2 algorithm by Nakamura et al.",
+  "author": "Laurens Holst",
+  "license": "MIT",
+  "repository": {
+    "type": "hg",
+    "url": "https://hg.sr.ht/~grauw/lfs2-compression"
+  },
+  "type": "module",
+  "dependencies": {},
+  "exports": {
+    ".": "./lib/Grammar.js"
+  },
+  "directories": {
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "files": [
+    "./lib/**"
+  ],
+  "scripts": {
+    "test": "node test/test.js"
+  }
+}
