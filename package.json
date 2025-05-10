@@ -11,17 +11,23 @@
   },
   "type": "module",
   "dependencies": {},
-  "exports": {
-    ".": "./lib/Grammar.js"
+  "devDependencies": {
+    "@types/node": "^22.15.17",
+    "@eslint/js": "^9.26.0",
+    "@stylistic/eslint-plugin": "^4.2.0",
+    "eslint": "^9.26.0",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.0"
   },
-  "directories": {
-    "lib": "./lib",
-    "test": "./test"
-  },
+  "main": "./dist/lib/Grammar.js",
+  "types": "./dist/lib/Grammar.d.ts",
   "files": [
-    "./lib/**"
+    "./lib/**",
+    "./dist/lib/**"
   ],
   "scripts": {
-    "test": "node test/test.js"
+    "test": "node test/test.ts",
+    "types:check": "tsc --noEmit -p .",
+    "prepack": "tsc -p ."
   }
 }

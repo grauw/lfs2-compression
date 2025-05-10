@@ -1,5 +1,5 @@
 import { SuffixTree } from "../lib/SuffixTree.js";
-import { Test, TestSuite, assert, assertEquals, assertArrayEquals } from "./TestSuite.js";
+import { Test, TestSuite, assert, assertEquals, assertArrayEquals } from "./TestSuite.ts";
 
 export default new TestSuite([
 	new Test("Empty sequence", () => {

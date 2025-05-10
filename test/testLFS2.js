@@ -1,6 +1,6 @@
 import fs from "fs";
 import { Grammar } from "../lib/Grammar.js";
-import { Test, TestSuite, assert, assertEquals, assertArrayEquals } from "./TestSuite.js";
+import { Test, TestSuite, assert, assertEquals, assertArrayEquals } from "./TestSuite.ts";
 
 export default new TestSuite([
 	new Test("Simple string", () => {

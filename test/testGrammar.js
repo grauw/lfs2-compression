@@ -1,5 +1,5 @@
 import { Grammar } from "../lib/Grammar.js";
-import { Test, TestSuite, assert, assertEquals, assertArrayEquals, assertArrayDeepEquals } from "./TestSuite.js";
+import { Test, TestSuite, assert, assertEquals, assertArrayEquals, assertArrayDeepEquals } from "./TestSuite.ts";
 
 export default new TestSuite([
 	new Test("Empty grammar", () => {

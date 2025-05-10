@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"noImplicitOverride": true,
+		"allowJs": true,
+		"target": "ESNext",
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"rewriteRelativeImportExtensions": true,
+		"erasableSyntaxOnly": true,
+		"verbatimModuleSyntax": true,
+		"sourceMap": true,
+		"declaration": true,
+		"declarationMap": true,
+		"outDir": "./dist",
+	}
+}
