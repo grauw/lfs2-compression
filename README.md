@@ -5,7 +5,7 @@ Copyright 2023 Laurens Holst
 ## Project information
 
   * Author: Laurens Holst <laurens@grauw.nl>
-  * Source: <https://hg.sr.ht/~grauw/lfs2-compression>
+  * Source: <https://github.com/grauw/lfs2-compression>
   * License: MIT
 
 Implementation of LFS2 grammar compression described in the paper

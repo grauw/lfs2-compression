@@ -6,8 +6,8 @@
   "license": "MIT",
   "keywords": [ "lfs2", "grammar", "compression", "longest-first", "substitution", "suffix", "tree" ],
   "repository": {
-    "type": "hg",
-    "url": "https://hg.sr.ht/~grauw/lfs2-compression"
+    "type": "git",
+    "url": "git+https://github.com/grauw/lfs2-compression.git"
   },
   "type": "module",
   "dependencies": {},
